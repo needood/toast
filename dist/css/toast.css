@@ -1,5 +1,5 @@
 
-#_android_toast_container_1fr8b_1{
+#_android_toast_container_61og9_1{
 	width: 100%;
 	position: fixed;
 	bottom: 12%;
@@ -7,7 +7,7 @@
         pointer-events:none;
 }
 
-#_android_toast_1fr8b_32{
+#_android_toast_61og9_32{
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
@@ -18,36 +18,36 @@
 	border-radius: 2px;
 	-webkit-border-radius: 2px;
 	opacity: 0.95;
-	box-shadow:  1px 2px 2px 1px rgba(34, 34, 34, 1);
+	box-shadow:  1px 2px 2px 1px rgba(34, 34, 34, .8);
 	text-align: center;
 	font-family: Roboto, sans-serif;
 }
 
-#_android_toast_1fr8b_32 em{
+#_android_toast_61og9_32 em{
 	color: rgb(81, 180, 210);
 	font-weight: bold;
 	font-style: normal;
 }
 
-._android_toast_top_1fr8b_32{
+._android_toast_top_61og9_32{
 	top: 12%;
 	bottom: auto !important;
 }
 
 
-._android_toast_fadein_1fr8b_38{
-	animation: _android_toast_fadein_1fr8b_38 1s ease;
-	-webkit-animation: _android_toast_fadein_1fr8b_38 1s ease;
+._android_toast_fadein_61og9_38{
+	animation: _android_toast_fadein_61og9_38 .3s ease;
+	-webkit-animation: _android_toast_fadein_61og9_38 .3s ease;
 }
 
-._android_toast_fadeout_1fr8b_43{
-	animation: _android_toast_fadeout_1fr8b_43 1s ease;
-	-webkit-animation: _android_toast_fadeout_1fr8b_43 1s ease;
+._android_toast_fadeout_61og9_43{
+	animation: _android_toast_fadeout_61og9_43 .3s ease;
+	-webkit-animation: _android_toast_fadeout_61og9_43 .3s ease;
 	animation-fill-mode: forwards;
 	-webkit-animation-fill-mode: forwards;
 }
 
-@keyframes _android_toast_fadein_1fr8b_38{
+@keyframes _android_toast_fadein_61og9_38{
 	from {
 		opacity: 0;
 		-webkit-opacity: 0;
@@ -58,7 +58,7 @@
 	}
 }
 
-@-webkit-keyframes _android_toast_fadein_1fr8b_38{
+@-webkit-keyframes _android_toast_fadein_61og9_38{
 	from {
 		opacity: 0;
 		-webkit-opacity: 0;
@@ -69,7 +69,7 @@
 	}
 }
 
-@keyframes _android_toast_fadeout_1fr8b_43{
+@keyframes _android_toast_fadeout_61og9_43{
 	from {
 		opacity: 0.95;
 		-webkit-opacity: 0.95;
@@ -80,7 +80,7 @@
 	}
 }
 
-@-webkit-keyframes _android_toast_fadeout_1fr8b_43{
+@-webkit-keyframes _android_toast_fadeout_61og9_43{
 	from {
 		opacity: 0.95;
 		-webkit-opacity: 0.95;

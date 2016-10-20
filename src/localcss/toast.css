@@ -18,8 +18,8 @@
 	border-radius: 2px;
 	-webkit-border-radius: 2px;
 	opacity: 0.95;
-	-webkit-box-shadow:  1px 2px 2px 1px rgba(34, 34, 34, 1);
-	box-shadow:  1px 2px 2px 1px rgba(34, 34, 34, 1);
+	-webkit-box-shadow:  1px 2px 2px 1px rgba(34, 34, 34, .8);
+	box-shadow:  1px 2px 2px 1px rgba(34, 34, 34, .8);
 	text-align: center;
 	font-family: Roboto, sans-serif;
 }
@@ -37,13 +37,13 @@
 
 
 .android_toast_fadein{
-	animation: android_toast_fadein 1s ease;
-	-webkit-animation: android_toast_fadein 1s ease;
+	animation: android_toast_fadein .3s ease;
+	-webkit-animation: android_toast_fadein .3s ease;
 }
 
 .android_toast_fadeout{
-	animation: android_toast_fadeout 1s ease;
-	-webkit-animation: android_toast_fadeout 1s ease;
+	animation: android_toast_fadeout .3s ease;
+	-webkit-animation: android_toast_fadeout .3s ease;
 	animation-fill-mode: forwards;
 	-webkit-animation-fill-mode: forwards;
 }
