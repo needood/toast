@@ -1,13 +1,14 @@
 
-#_android_toast_container_61og9_1{
+#_android_toast_container_i7hiw_1{
 	width: 100%;
 	position: fixed;
 	bottom: 12%;
 	left: 0;
-        pointer-events:none;
+    z-index:99999;
+    pointer-events:none;
 }
 
-#_android_toast_61og9_32{
+#_android_toast_i7hiw_33{
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
@@ -23,31 +24,31 @@
 	font-family: Roboto, sans-serif;
 }
 
-#_android_toast_61og9_32 em{
+#_android_toast_i7hiw_33 em{
 	color: rgb(81, 180, 210);
 	font-weight: bold;
 	font-style: normal;
 }
 
-._android_toast_top_61og9_32{
+._android_toast_top_i7hiw_33{
 	top: 12%;
 	bottom: auto !important;
 }
 
 
-._android_toast_fadein_61og9_38{
-	animation: _android_toast_fadein_61og9_38 .3s ease;
-	-webkit-animation: _android_toast_fadein_61og9_38 .3s ease;
+._android_toast_fadein_i7hiw_39{
+	animation: _android_toast_fadein_i7hiw_39 .3s ease;
+	-webkit-animation: _android_toast_fadein_i7hiw_39 .3s ease;
 }
 
-._android_toast_fadeout_61og9_43{
-	animation: _android_toast_fadeout_61og9_43 .3s ease;
-	-webkit-animation: _android_toast_fadeout_61og9_43 .3s ease;
+._android_toast_fadeout_i7hiw_44{
+	animation: _android_toast_fadeout_i7hiw_44 .3s ease;
+	-webkit-animation: _android_toast_fadeout_i7hiw_44 .3s ease;
 	animation-fill-mode: forwards;
 	-webkit-animation-fill-mode: forwards;
 }
 
-@keyframes _android_toast_fadein_61og9_38{
+@keyframes _android_toast_fadein_i7hiw_39{
 	from {
 		opacity: 0;
 		-webkit-opacity: 0;
@@ -58,7 +59,7 @@
 	}
 }
 
-@-webkit-keyframes _android_toast_fadein_61og9_38{
+@-webkit-keyframes _android_toast_fadein_i7hiw_39{
 	from {
 		opacity: 0;
 		-webkit-opacity: 0;
@@ -69,7 +70,7 @@
 	}
 }
 
-@keyframes _android_toast_fadeout_61og9_43{
+@keyframes _android_toast_fadeout_i7hiw_44{
 	from {
 		opacity: 0.95;
 		-webkit-opacity: 0.95;
@@ -80,7 +81,7 @@
 	}
 }
 
-@-webkit-keyframes _android_toast_fadeout_61og9_43{
+@-webkit-keyframes _android_toast_fadeout_i7hiw_44{
 	from {
 		opacity: 0.95;
 		-webkit-opacity: 0.95;
